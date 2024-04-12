@@ -1,0 +1,125 @@
+
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+
+body{
+    background:rgb(172, 27, 27);
+    color: black; 
+}
+
+#contenedor{
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+header {
+    height: 150px;
+    background:#000 ;
+}
+
+header h1{
+    font-size: 50px; 
+    text-align: center;
+    line-height: 150px;
+    color: rgb(255, 254, 252);
+}
+
+nav .menu{
+    list-style: none;
+    padding: 0px;
+    background: #092327;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;  
+}
+
+.menu li a {
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    transition: all 212ms; 
+    background: #a4c1e2;
+
+}
+
+
+#Contenido {
+   width: 700px;
+   height: 500px;
+   float:left;
+  background: lightblue;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#Contenido p{
+    font-size: 18px;
+    height: 100px;
+    padding: 10px;
+    font-style: oblique;
+}
+
+aside{
+    width: 250px;
+    height: 500px;
+    background: rgb(81, 238, 81);
+    margin-top: 10px;
+    float: right;
+}
+
+aside img {
+    font-size: 40px;
+    text-align: center;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 19px;
+    border: 12px dashed;
+}
+
+footer{
+    background: #000;
+    clear:both;
+    height: 250px;
+
+}
+
+footer h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    color: antiquewhite;
+}
+
+footer p {
+    color: antiquewhite;
+    margin-left: 15px;
+}
+
+#Contenido img{
+     margin-left: 16px;
+    border: 13px inset; 
+}
+
+.urlk img {
+    text-align: left;
+    width: 34px;
+    margin-left: 12px;
+
+}

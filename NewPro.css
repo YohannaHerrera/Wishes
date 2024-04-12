@@ -1,0 +1,38 @@
+
+
+
+
+nav .Get{
+    list-style: none;
+    padding: 0;
+    background: #acf390;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;  
+}
+
+.Get li a {
+    font-style: oblique;
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    display: block;
+}
+
+.Get li {
+    display: inline-block;
+    text-align: center;
+}
+
+.Get li a:hover{
+    transition: all 122ms; 
+    background: #6a90bb;
+
+}
+
+.This img {
+    width: 220px;
+    height: 290px;
+    border: 16px inset beige; 
+
+}

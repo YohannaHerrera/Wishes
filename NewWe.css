@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(236, 173, 169);
+}
+
+h1{
+    color: black;
+    text-align: center;
+    border: 23px dotted rgb(220, 234, 235); 
+}
+ 
+nav .Volver{
+    list-style: none;
+    padding: 0;
+    background: #b43e3a;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;  
+}
+
+.Volver li a {
+    font-style: oblique;
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    display: block;
+}
+
+.Volver li {
+    display: inline-block;
+    text-align: center;
+}
+
+.Volver li a:hover{
+    transition: all 122ms; 
+    background: #6a90bb;
+
+}
+
+h2, dl {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+
+    font-family:  Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+img {
+    border: 12px inset rgb(213, 231, 236); 
+}
+
+h2{
+    background-color: rgb(238, 198, 198);
+    }
